@@ -1,0 +1,43 @@
+/* below for set font */
+
+@font-face {
+    font-family: "Vazir";
+    src: url('../fonts/Vazir-FD.eot');
+    src: url('../fonts/Vazir-FD.eot') format('FontName-opentype'), url('../fonts/Vazir-FD.woff') format('woff'), url('../fonts/Vazir-FD.woff2') format('woff2'), url('../fonts/Vazir-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Vazir';
+}
+
+.myfont {
+    font-family: 'Vazir', Helvetica, Arial, sans-serif;
+}
+
+.form-control{
+    border-bottom: 1px solid #212121!important;
+    padding: 0 8px!important;
+    border-radius: 5px!important;
+}
+
+.nav-header {
+    background-color: #fff;
+}
+
+.nav-header .brand-logo a {
+    background-color: #fff;
+}
+
+/* .btn-primary:hover{
+    background: linear-gradient(120deg, rgb(91, 214, 252), rgb(176, 114, 247));
+    color: white;
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(120deg, rgb(0, 195, 255), rgb(130, 21, 255));
+    color: white;
+    font-size: 1.5em;
+} */
